@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;total-out.jsp&apos; を &apos;Servers&apos; に移動" description="&apos;total-out.jsp&apos; を &apos;Servers&apos; に移動" destination="/Servers" element1="/HelloJSP/WebContent/total-out.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1563964400362" updateReferences="true"/>
+</session>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;HelloServlet/sql/testdb.sql&apos; を &apos;testdb123.sql&apos; に変更します" description="リソース &apos;testdb.sql&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sql/testdb.sql" name="testdb123.sql" stamp="1564138652528" updateReferences="true"/>&#x0A;<refactoring comment="リソース名 &apos;HelloServlet/sql/testdb123.sql&apos; を &apos;testdb.sql&apos; に変更します" description="リソース &apos;testdb123.sql&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="sql/testdb123.sql" name="testdb.sql" stamp="1564138841894" updateReferences="true"/>
+</session>

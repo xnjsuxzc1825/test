@@ -1,0 +1,15 @@
+INDEX VERSION 1.127+C:\Users\testuser\Desktop\workspace\workspace-takizawa\.metadata\.plugins\org.eclipse.jdt.core
+2530802075.index
+3748266580.index
+3205172750.index
+2700062036.index
+2094232310.index
+2055351946.index
+2626990484.index
+2473826076.index
+2573306658.index
+3412227387.index
+2866514716.index
+1592569180.index
+2795787554.index
+1297165082.index

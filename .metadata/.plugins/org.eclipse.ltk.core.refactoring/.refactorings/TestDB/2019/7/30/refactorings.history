@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="&apos;index.jsp&apos; を &apos;TestDB&apos; に移動" description="&apos;index.jsp&apos; を &apos;TestDB&apos; に移動" destination="/TestDB" element1="/HelloJSP/WebContent/index.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1563797523103" updateReferences="true"/>&#x0A;<refactoring comment="&apos;index.jsp&apos; を &apos;TestDB&apos; に移動" description="&apos;index.jsp&apos; を &apos;TestDB&apos; に移動" destination="/TestDB" element1="/HelloJSP/WebContent/index.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1563797593526" updateReferences="true"/>
+</session>
