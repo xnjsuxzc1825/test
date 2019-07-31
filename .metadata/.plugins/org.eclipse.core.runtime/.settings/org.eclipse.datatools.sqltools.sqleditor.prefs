@@ -1,2 +1,3 @@
 PreferenceConstants.EXECUTE_SQL_ERROR_MODE=PreferenceConstants.PROMPT_MODE_ALWAYS
+SQLEditor.executeSelectedSQL.betweenDelimiter.delimiterType=go
 eclipse.preferences.version=1

@@ -1,0 +1,14 @@
+//画面から送られてきたリクエストを取得
+//内部処理に応じてDAOやDTOクラスを呼び出し、最終的に次のJSPへ値を返す。
+
+
+package com.internousdev.login.action;
+
+import java.sql.SQLException;
+import com.internousdev.login.dao.LoginDAO;
+import com.internousdev.login.dto.LoginDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class Action {
+
+}

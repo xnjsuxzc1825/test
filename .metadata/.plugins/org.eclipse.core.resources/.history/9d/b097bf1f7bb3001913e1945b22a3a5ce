@@ -1,0 +1,21 @@
+package com.internousdev.login.dto;
+
+public class LoginDTO {
+	private int id;
+	private String name;
+	private String password;
+
+	//変数に対応したgetterとsetterを定義
+	public int getId(){
+		return id;
+	}
+
+	public void setId(int Id){
+		this.id = id;
+	}
+
+	//Actionクラスから呼び出され、nameフィールドの値を渡す。
+	public String getName(){
+		return name;
+	}
+}

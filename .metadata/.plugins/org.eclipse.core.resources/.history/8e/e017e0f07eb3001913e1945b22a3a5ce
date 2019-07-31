@@ -1,0 +1,14 @@
+//Actionクラスから送られてきた情報を使ってDBへ問い合わせを行う。
+//問い合わせて取得した値をDTOクラスに格納する。
+
+package com.internousdev.login.dao;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import com.internousdev.login.dto.LoginDTO;
+import com.internousdev.login.util.DBConnector;
+
+public class LoginDAO {
+
+}

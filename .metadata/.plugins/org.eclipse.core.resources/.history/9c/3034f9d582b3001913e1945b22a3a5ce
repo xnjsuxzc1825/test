@@ -1,0 +1,9 @@
+//画面から送られてきたリクエストを取得
+//内部処理に応じてDAOやDTOクラスを呼び出し、最終的に次のJSPへ値を返す。
+
+
+package com.internousdev.login.action;
+
+public class Action {
+
+}

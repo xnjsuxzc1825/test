@@ -1,0 +1,8 @@
+//Actionクラスから送られてきた情報を使ってDBへ問い合わせを行う。
+//問い合わせて取得した値をDTOクラスに格納する。
+
+package com.internousdev.login.dao;
+
+public class LoginDAO {
+
+}
