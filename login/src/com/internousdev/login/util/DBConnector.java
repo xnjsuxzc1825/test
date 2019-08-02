@@ -9,7 +9,7 @@ import java.sql.SQLException;
 //MySQLÚ‘±‚É•K—v‚Èî•ñ‚ğİ’è
 public class DBConnector {
 	private static String driverName="com.mysql.jdbc.Driver";
-	private static String url ="jdbc:mysql://localhost/logindb_takizawa";
+	private static String url ="jdbc:mysql://localhost/logindb_takizawa1";
 
 	private static String user ="root";
 	private static String password ="mysql";

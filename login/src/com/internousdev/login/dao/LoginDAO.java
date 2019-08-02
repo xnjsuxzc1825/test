@@ -23,8 +23,8 @@ public class LoginDAO {
 			try{
 				//定義したSQL文の1つ目の?にActionから送られてきたname、2つ目にActionから送られてきたpasswordが入る。
 				PreparedStatement ps = con.prepareStatement(sql);
-				ps.setString(1, name);
-				ps.setString(2, password);
+				ps.setString(1,name);
+				ps.setString(2,password);
 
 				//select文のSQL文を実行するメソッド。戻り値はResultSet
 				ResultSet rs= ps.executeQuery();

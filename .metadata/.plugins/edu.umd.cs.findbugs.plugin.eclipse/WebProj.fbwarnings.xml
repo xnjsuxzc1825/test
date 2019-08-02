@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1564748816628" analysisTimestamp="1564748805260" release="">
+  <Project projectName="WebProj">
+    <Jar>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\ecj-4.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\commons-fileupload-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\commons-io-2.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\commons-lang3-3.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\freemarker-2.3.28.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\javassist-3.11.0.GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\mysql-connector-java-5.1.46-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\ognl-3.0.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\struts2-core-2.3.37.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\WebContent\WEB-INF\lib\xwork-core-2.3.37.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\WebProj\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 2 Aug 2019 21:26:37 +0900" total_classes="5" referenced_classes="33" total_bugs="0" total_size="29" num_packages="2" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="15.34" clock_seconds="11.37" peak_mbytes="851.68" alloc_mbytes="910.50" gc_seconds="0.20">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.webproj.action" total_bugs="0" total_types="4" total_size="28">
+      <ClassStats class="com.internousdev.webproj.action.HelloStrutsAction" sourceFile="HelloStrutsAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.LoginAction" sourceFile="LoginAction.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.WelcomeAction" sourceFile="WelcomeAction.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="com.internousdev.webproj.action.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="633" invocations="2" avgMicrosecondsPerInvocation="316530" maxMicrosecondsPerInvocation="475974" standardDeviationMircosecondsPerInvocation="159444"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="320" invocations="373" avgMicrosecondsPerInvocation="858" maxMicrosecondsPerInvocation="13729" standardDeviationMircosecondsPerInvocation="1880"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="191" invocations="33" avgMicrosecondsPerInvocation="5803" maxMicrosecondsPerInvocation="87549" standardDeviationMircosecondsPerInvocation="16368"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="173" invocations="379" avgMicrosecondsPerInvocation="458" maxMicrosecondsPerInvocation="20325" standardDeviationMircosecondsPerInvocation="1494"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="108" invocations="56" avgMicrosecondsPerInvocation="1930" maxMicrosecondsPerInvocation="48508" standardDeviationMircosecondsPerInvocation="7005"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="103" invocations="33" avgMicrosecondsPerInvocation="3143" maxMicrosecondsPerInvocation="52688" standardDeviationMircosecondsPerInvocation="9405"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="89" invocations="33" avgMicrosecondsPerInvocation="2712" maxMicrosecondsPerInvocation="49926" standardDeviationMircosecondsPerInvocation="9202"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="87" invocations="33" avgMicrosecondsPerInvocation="2665" maxMicrosecondsPerInvocation="20718" standardDeviationMircosecondsPerInvocation="5198"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="87" invocations="133" avgMicrosecondsPerInvocation="660" maxMicrosecondsPerInvocation="7552" standardDeviationMircosecondsPerInvocation="1241"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="71" invocations="10" avgMicrosecondsPerInvocation="7163" maxMicrosecondsPerInvocation="70695" standardDeviationMircosecondsPerInvocation="21177"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1564748816626" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

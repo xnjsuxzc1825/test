@@ -22,7 +22,7 @@ public class LoginAction extends ActionSupport{
 
 			//JSPから送られてきたnameとpasswordを引数としてLoginDAOクラスのselectメソッドを呼び出す。
 			//その後DAOで取得した結果をLoginDTOに代入する。
-			dto = dao.select(name, password);
+			dto = dao.select(name,password);
 
 			//ユーザーが入力したログインID(name)とパスワード(password)が
 			//DTOから持ってきた値(dto.getName())及び(dto.getPassword())と一致するか確認する。

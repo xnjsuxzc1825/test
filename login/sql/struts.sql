@@ -1,10 +1,10 @@
-set name utf-8;
+set names utf8;
 set foreign_key_checks = 0;
-drop databases if exists logindb_takizawa;
-create database logindb_takizawa;
-use logindb_takizawa;
+drop database if exists logindb_takizawa1;
+create database logindb_takizawa1;
+use logindb_takizawa1;
 
-create table user(id int, user_name varchar(255),password varchar(255));
+create table user(id int,user_name varchar(255),password varchar(255));
 
 insert into user values
 (1,"taro","123"),
