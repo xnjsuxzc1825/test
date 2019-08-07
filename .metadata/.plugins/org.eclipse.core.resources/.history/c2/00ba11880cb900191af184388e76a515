@@ -1,0 +1,5 @@
+package com.internousdev.webproj2.dao;
+
+public class InquiryCompleteDAO {
+
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト の Tomcat6 (Java6)-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト の Tomcat6 (Java6)" name="ローカル・ホスト の Tomcat6 (Java6)" runtime-id="Tomcat6 (Java6)" server-type="org.eclipse.jst.server.tomcat.60" server-type-id="org.eclipse.jst.server.tomcat.60" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
-    <list key="modules" value0="WebProj::org.eclipse.jst.jee.server:WebProj::jst.web::2.5"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト の Tomcat6 (Java6)-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト の Tomcat6 (Java6)" name="ローカル・ホスト の Tomcat6 (Java6)" runtime-id="Tomcat6 (Java6)" server-type="org.eclipse.jst.server.tomcat.60" server-type-id="org.eclipse.jst.server.tomcat.60" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="3">
+    <list key="modules" value0="WebProj::org.eclipse.jst.jee.server:WebProj::jst.web::2.5" value1="WebProj2::org.eclipse.jst.jee.server:WebProj2::jst.web::2.5"/>
   </server>
 </servers>

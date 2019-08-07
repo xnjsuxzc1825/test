@@ -57,6 +57,25 @@
 <entry path="C:\pleiades\java\8\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\pleiades\eclipse\jre" version="1.8.0_74">
+<bootpath>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\resources.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\rt.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\sunrsasign.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\jsse.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\jce.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\charsets.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\jfr.jar"/>
+<entry path="C:\pleiades\eclipse\jre\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\pleiades\eclipse\jre\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="C:\Users\xnjsu\Downloads\pleiades\eclipse\jre" version="1.8.0_74">
 <bootpath>
 <entry path="C:\Users\xnjsu\Downloads\pleiades\eclipse\jre\jre\lib\resources.jar"/>
