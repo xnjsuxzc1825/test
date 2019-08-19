@@ -7,8 +7,8 @@
 	<constant name="struts.devMode" value="true"/>
 
 	<package name="com.internousdev.webproj2.action" extends="struts-default">
-		<action name="HelloStrutsAction" class="com.internousdev.webjro2.action.HelloStrutsAction" method="execute">
-			<result name="susscess">hello.jsp</result>
+		<action name="HelloStrutsAction" class="com.internousdev.webproj2.action.HelloStrutsAction" method="execute">
+			<result name="success">hello.jsp</result>
 			<result name="error">helloStrutsError.jsp</result>
 		</action>
 
@@ -16,7 +16,7 @@
 			<result name="success">welcome.jsp</result>
 		</action>
 
-		<action name="LoginActin" class="com.internousdev.webproj2.action.LoginAction" method="execute">
+		<action name="LoginAction" class="com.internousdev.webproj2.action.LoginAction" method="execute">
 			<result name="success">login.jsp</result>
 			<result name="error">loginError.jsp</result>
 		</action>
@@ -26,7 +26,11 @@
  		</action>
 
  		<action name="InquiryCompleteAction" class="com.internousdev.webproj2.action.InquiryCompleteAction" method="execute">
- 			<result name="success">InquiryCompleteAction.jsp</result>
+ 			<result name="success">inquiryComplete.jsp</result>
+ 		</action>
+
+ 		<action name="TestAction" class="com.internousdev.webproj2.action.TestAction" method="execute">
+ 			<result name="success">test.jsp</result>
  		</action>
  	</package>
 </struts>

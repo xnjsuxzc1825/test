@@ -22,7 +22,7 @@ public class LoginDAO {
 			if(rs.next()){
 				this.username = rs.getString("user_name");
 				this.username = rs.getString("password");
-				ret=true;
+				ret = true;
 			}
 		}
 		catch(SQLException e){

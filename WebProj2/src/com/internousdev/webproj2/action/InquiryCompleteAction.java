@@ -18,9 +18,11 @@ public class InquiryCompleteAction extends ActionSupport{
 		}
 		return ret;
 	}
+
 	public String getName(){
 		return name;
 	}
+
 	public void setName(String name){
 		this.name = name;
 	}

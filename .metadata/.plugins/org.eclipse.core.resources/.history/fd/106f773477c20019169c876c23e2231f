@@ -1,0 +1,12 @@
+package com.internousdev.webproj2.dao;
+
+import com.internousdev.webproj2.util.DBConnector;
+
+public class TestDAO {
+	public int insert(String username, String password){
+		int ret = 0;
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+
+	}
+}
