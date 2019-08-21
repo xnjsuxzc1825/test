@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="Test"/>
+<launchConfiguration bookmark="false" name="WebProj"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト の Tomcat v8.0 サーバー"/>
+<launchConfiguration bookmark="false" name="ローカル・ホスト の Tomcat6 (Java6)"/>
+</category>
+</runner>
