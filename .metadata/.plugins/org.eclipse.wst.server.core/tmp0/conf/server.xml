@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebProj2" path="/WebProj2" reloadable="true" source="org.eclipse.jst.jee.server:WebProj2"/><Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebProj" path="/WebProj" reloadable="true" source="org.eclipse.jst.jee.server:WebProj"/></Host>
+      <Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\testuser\Desktop\workspace\workspace-takizawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\WebProj" path="/WebProj" reloadable="true" source="org.eclipse.jst.jee.server:WebProj"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -7,7 +7,7 @@ public class LoginAction extends ActionSupport{
 	private String username;
 	private String password;
 
-	public Strng exeute(){
+	public String exeute(){
 		String ret = ERROR;
 		LoginDAO dao = new LoginDAO();
 		boolean b = dao.select(username, password);

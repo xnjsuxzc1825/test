@@ -13,8 +13,8 @@ public class InquiryCompleteAction extends ActionSupport{
 		String ret = ERROR;
 		InquiryCompleteDAO dao = new InquiryCompleteDAO();
 		int count = dao.insert(name, qtype, body);
-		in(count>0){
-			ret = SUCCESSl
+		if(count>0){
+			ret = SUCCESS;
 		}
 		return ret;
 	}
