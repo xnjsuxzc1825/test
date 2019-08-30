@@ -4,4 +4,5 @@
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dao.TestDAO"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.util.AbstractCollection"/>
 </qualifiedTypeNameHistroy>
