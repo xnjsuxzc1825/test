@@ -29,7 +29,7 @@ public class LoginDAO {
 			while(rs.next()){
 				LoginDTO dto = new LoginDTO();
 				dto.setUsername(rs.getString("user_name"));
-				dto.setPassword(rs.getString("passowrd"));
+				dto.setPassword(rs.getString("password"));
 				loginDTOList.add(dto);
 			}
 

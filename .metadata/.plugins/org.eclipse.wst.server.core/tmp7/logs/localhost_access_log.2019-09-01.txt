@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:40:09 +0900] "GET /WebProj4/ HTTP/1.1" 200 1144
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:40:10 +0900] "POST /WebProj4/InquiryAction.action HTTP/1.1" 200 1088
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:40:16 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 9245
+127.0.0.1 - - [01/Sep/2019:00:48:15 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:48:15 +0900] "GET /WebProj4/ HTTP/1.1" 200 1144
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:48:39 +0900] "POST /WebProj4/InquiryAction.action HTTP/1.1" 200 1088
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:48:45 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 650
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:48:45 +0900] "GET /WebProj4/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:48:55 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 803
+127.0.0.1 - - [01/Sep/2019:00:52:45 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:52:46 +0900] "GET /login/ HTTP/1.1" 200 726
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:53:27 +0900] "POST /login/LoginAction.action;jsessionid=ECB6BAB94D84F40FD596179CE0449791 HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:53:30 +0900] "POST /login/LoginAction.action;jsessionid=ECB6BAB94D84F40FD596179CE0449791 HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:53:42 +0900] "POST /login/LoginAction.action;jsessionid=ECB6BAB94D84F40FD596179CE0449791 HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:53:57 +0900] "POST /login/LoginAction.action;jsessionid=ECB6BAB94D84F40FD596179CE0449791 HTTP/1.1" 200 185
+0:0:0:0:0:0:0:1 - - [01/Sep/2019:00:54:14 +0900] "POST /WebProj4/InquiryCompleteAction.action HTTP/1.1" 200 948
