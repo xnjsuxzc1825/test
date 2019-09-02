@@ -27,5 +27,9 @@
 		<action name="InquiryCompleteAction" class="com.internousdev.webproj4.action.InquiryCompleteAction" method="execute">
 			<result name="success">inquiryComplete.jsp</result>
 		</action>
+
+		<action name="TestAction" class="com.internousdev.webproj4.action.TestAction" method="execute">
+			<result name="success">test.jsp</result>
+		</action>
 	</package>
 </struts>
