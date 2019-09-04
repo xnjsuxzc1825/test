@@ -7,4 +7,5 @@
 <fullyQualifiedTypeName name="java.util.AbstractCollection"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 </qualifiedTypeNameHistroy>
