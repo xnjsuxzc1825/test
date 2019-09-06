@@ -15,5 +15,23 @@
 <s:form action="WelcomeAction">
 	<s:submit value="Welcome"/>
 </s:form>
+
+<s:form action="InquiryAction">
+	<s:submit value="お問合わせ"/>
+</s:form>
+<br>
+<h3>新規ユーザー登録</h3>
+GET通信
+<s:form method="get" action="testAction">
+	<s:textfield name="password"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+</s:form>
+POST通信
+<s:form method="post" acation="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+</s:form>
 </body>
 </html>
