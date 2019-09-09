@@ -3,10 +3,18 @@
 "-//Apache Software Foundation//DTD Struts Configration 2.3//EN"
 "http://struts.apache.org/dtds/struts-2.3.dtd">
 
+<!--strutsフレームワークを利用する際に作成する設定ファイル。
+javaの処理結果に応じて表示する画面ファイル(JSPファイル)の設定を記述する。-->
+
+
+<!--このプロジェクトで使うActionファイルが保存されているパッケージを宣言する。-->
 <struts>
 	<constant name="struts.devMode" value="true"/>
 	<package name="com.internousdev.webproj.action" extends="struts-default">
+
+		<!--呼び出されるjavaクラスファイルと実行するメソッドを宣言する。-->
 		<action name="HelloStrutsAction" class="com.internousdev.webproj.action.HelloStrutsAction" method="execute">
+			<!--execute()メソッドから返ってきた値によって次に表示するJSPを振り分ける。-->
 			<result name="success">hello.jsp</result>
 		</action>
 

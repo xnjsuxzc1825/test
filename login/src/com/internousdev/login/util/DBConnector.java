@@ -1,15 +1,15 @@
-//ƒf[ƒ^ƒx[ƒX‚ğg‚¤•K—v‚ª‚ ‚éê‡ADBÚ‘±‚Ìİ’è‚ğs‚¤B
-//DBConnector‚Å‚ÍÚ‘±‚·‚éDB‚ÌuêŠvu–¼‘Ovuƒ†[ƒU[–¼vuƒpƒXƒ[ƒhv‚Ìİ’è‚ğs‚¤B
+//ï¿½fï¿½[ï¿½^ï¿½xï¿½[ï¿½Xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Kï¿½vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ê‡ï¿½ADBï¿½Ú‘ï¿½ï¿½Ìİ’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½B
+//DBConnectorï¿½Å‚ÍÚ‘ï¿½ï¿½ï¿½ï¿½ï¿½DBï¿½Ìuï¿½êŠï¿½vï¿½uï¿½ï¿½ï¿½Oï¿½vï¿½uï¿½ï¿½ï¿½[ï¿½Uï¿½[ï¿½ï¿½ï¿½vï¿½uï¿½pï¿½Xï¿½ï¿½ï¿½[ï¿½hï¿½vï¿½Ìİ’ï¿½ï¿½ï¿½sï¿½ï¿½ï¿½B
 
 package com.internousdev.login.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-//MySQLÚ‘±‚É•K—v‚Èî•ñ‚ğİ’è
+//MySQLï¿½Ú‘ï¿½ï¿½É•Kï¿½vï¿½Èï¿½ï¿½ï¿½İ’ï¿½
 public class DBConnector {
 	private static String driverName="com.mysql.jdbc.Driver";
-	private static String url ="jdbc:mysql://localhost/logindb_takizawa1";
+	private static String url ="jdbc:mysql://localhost/logindb_takizawa";
 
 	private static String user ="root";
 	private static String password ="mysql";
@@ -17,7 +17,7 @@ public class DBConnector {
 	public Connection getConnection(){
 		Connection con = null;
 
-		//İ’è‚µ‚½î•ñ‚ğg‚Á‚ÄƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ä‚¢‚éMySQLƒT[ƒo[‚ÖÚ‘±‚·‚é‚½‚ß‚Ì‹LqB
+		//ï¿½İ’è‚µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ÄƒCï¿½ï¿½ï¿½Xï¿½gï¿½[ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½MySQLï¿½Tï¿½[ï¿½oï¿½[ï¿½ÖÚ‘ï¿½ï¿½ï¿½ï¿½é‚½ï¿½ß‚Ì‹Lï¿½qï¿½B
 		try{
 			Class.forName(driverName);
 			con = (Connection)DriverManager.getConnection(url,user,password);

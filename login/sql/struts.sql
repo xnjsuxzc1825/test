@@ -1,8 +1,8 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists logindb_takizawa1;
-create database logindb_takizawa1;
-use logindb_takizawa1;
+drop database if exists logindb_takizawa;
+create database logindb_takizawa;
+use logindb_takizawa;
 
 create table user(id int,user_name varchar(255),password varchar(255));
 
