@@ -29,7 +29,7 @@
 			</tr>
 			<tr id="box">
 				<td>
-					<label>ログインPASS</label>
+					<label>ログインPASS:</label>
 				</td>
 				<td>
 					<s:property value="loginPassword" escape="false"/>

@@ -10,7 +10,7 @@ public class LoginDTO {
 		return loginId;
 	}
 
-	public void setLoginid(String loginId){
+	public void setLoginId(String loginId){
 		this.loginId = loginId;
 	}
 

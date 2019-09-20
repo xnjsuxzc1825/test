@@ -1,3 +1,4 @@
+PreferenceConstants.EXECUTE_SQL_ERROR_MODE=PreferenceConstants.PROMPT_MODE_ALWAYS
 eclipse.preferences.version=1
 \u305D\u306E\u4ED6=0,0,0,0,1,0,0,0
 \u30AD\u30FC\u30EF\u30FC\u30C9=1,0,0,0,0,127,0,85

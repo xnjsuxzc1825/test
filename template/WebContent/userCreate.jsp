@@ -15,7 +15,7 @@
 			<p>UserCreate</p>
 		</div>
 		<div>
-			<s:if test="erroeMessage !=''">
+			<s:if test="errorMessage !=''">
 				<s:property value="errorMesseage" escape="false"/>
 			</s:if>
 			<table>
@@ -25,7 +25,7 @@
 						<label>ログインID</label>
 					</td>
 					<td>
-						<input type="text" name=""loginUserId" value=""/>
+						<input type="text" name="loginUserId" value=""/>
 					</td>
 				</tr>
 				<tr>
@@ -33,7 +33,7 @@
 						<label>ログインPASS</label>
 					</td>
 					<td>
-						<input type="text" name=""userName" value=""/>
+						<input type="text" name="userName" value=""/>
 					</td>
 					<s:submit value="登録"/>
 				</s:form>
