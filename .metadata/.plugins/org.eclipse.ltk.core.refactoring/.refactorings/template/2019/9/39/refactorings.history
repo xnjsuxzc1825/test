@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="&apos;home.jsp&apos; を &apos;WebContent&apos; に移動" description="&apos;home.jsp&apos; を &apos;WebContent&apos; に移動" destination="WebContent" element1="src/com/internousdev/template/action/home.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1569582600409" updateReferences="true"/>
+</session>
