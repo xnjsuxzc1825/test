@@ -1,9 +1,9 @@
 set names utf8;
-set foreign_key_check = 0;
-drop databases if exists ecsite;
+set foreign_key_checks = 0;
+drop database if exists ecsite1825;
 
-create database if not exists ecsite;
-use ecsite;
+create database if not exists ecsite1825;
+use ecsite1825;
 
 drop table if exists login_user_transaction;
 
