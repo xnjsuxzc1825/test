@@ -21,7 +21,7 @@
 				<s:property value="errorMessage" escape="false"/>
 			</s:if>
 			<table>
-			<s:form action="UserCrateConfirmAction">
+			<s:form action="UserCreateConfirmAction">
 				<tr>
 					<td>
 						<label>ログインID:</label>

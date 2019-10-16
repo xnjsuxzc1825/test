@@ -1,19 +1,21 @@
 package com.internousdev.ecsite.action;
 
-import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.interceptor.SessionAware;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
 import com.internousdev.ecsite.dao.MyPageDAO;
 import com.internousdev.ecsite.dto.MyPageDTO;
+import com.opensymphony.xwork2.ActionSupport;
 
 public class MyPageAction extends ActionSupport implements SessionAware{
 	private Map<String,Object>session;
 	private MyPageDAO mypageDAO = new MyPageDAO();
 	private ArrayList<MyPageDTO> myPageList = new ArrayList<MyPageDTO>();
 	private String deleteFlg;
-	private String messagge;
+	private String message;
 
 	public String execute() throws SQLException{
 		if(!session.containsKey("login_user_id")){
@@ -42,8 +44,31 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 			setMessage("商品情報を正しく削除しました。");
 		}
 		else if(res==0){
-			setMessage("商品情報の削除に失敗しました。"):
+			setMessage("商品情報の削除に失敗しました。");
 		}
 	}
 
+	public void setDeleteFlg(String deleteFlg){
+		this.deleteFlg = deleteFlg;
+	}
+
+	public ArrayList<MyPageDTO> getMyPageList(){
+		return this.myPageList;
+	}
+
+	public String getMessage(){
+		return this.message;
+	}
+
+	public void setMessage(String message){
+		this.message = message;
+	}
+
+	public Map<String,Object>getSession(){
+		return this.session;
+	}
+	@Override
+	public void setSession(Map<String, Object>session){
+		this.session = session;
+	}
 }

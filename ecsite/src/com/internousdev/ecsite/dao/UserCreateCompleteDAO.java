@@ -13,7 +13,7 @@ public class UserCreateCompleteDAO {
 		Connection con = db.getConnection();
 		DateUtil dateUtil = new DateUtil();
 
-		String sql ="INSERT INTO login_user_transaction(login_id,login_pass,_user_name,insert_date)VALUES(?,?,?,?)";
+		String sql ="INSERT INTO login_user_transaction(login_id,login_pass,user_name,insert_date)VALUES(?,?,?,?)";
 
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);
