@@ -15,6 +15,8 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 
 	public String execute(){
 		UserCreateCompleteDAO userCreateCompleteDAO = new UserCreateCompleteDAO();
+		/*userCreateCompleteDAOクラスを呼び出し、createUserメソッドを実行。
+		 * loginUserId、loginPassword、userNameを引数とし、DBに登録させる。*/
 		userCreateCompleteDAO.createUser(session.get("loginUserId").toString(),session.get("loginPassword").toString(), session.get("userName").toString());
 		String result  = SUCCESS;
 		return result;

@@ -26,6 +26,7 @@ public class MyPageDAO {
 			ResultSet rs = ps.executeQuery();
 
 			while(rs.next()){
+				/*データベースから取得した商品情報をDTOに渡し、さらにDTOをArrayListに格納*/
 				MyPageDTO dto = new MyPageDTO();
 				dto.setId(rs.getString("id"));
 				dto.setItemName(rs.getString("item_name"));
@@ -57,7 +58,7 @@ public class MyPageDAO {
 			ps = con.prepareStatement(sql);
 			ps.setString(1,item_transaction_id);
 			ps.setString(2,user_master_id);
-			result = ps.executeUpdate();
+			result = ps.executeUpdate();/*削除した場合、処理した行数を返す。0=処理失敗*/
 		}
 		catch(SQLException e){
 			e.printStackTrace();

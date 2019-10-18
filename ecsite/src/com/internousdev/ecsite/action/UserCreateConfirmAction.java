@@ -15,8 +15,9 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 
 	public String execute(){
 		String result = SUCCESS;
-
+		/*未入力項目の有無の確認*/
 		if(!(loginUserId.equals(""))&&!(loginPassword.equals(""))&&!(userName.equals(""))){
+			/*確認画面で表示したい要素をMapを使いputメソッドで記憶*/
 			session.put("loginUserId", loginUserId);
 			session.put("loginPassword", loginPassword);
 			session.put("userName", userName);

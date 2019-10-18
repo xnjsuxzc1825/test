@@ -9,7 +9,7 @@ public class MyPageDTO {
 	private String id;
 	private String insert_date;
 
-	public String getItemNameI(){
+	public String getItemName(){
 		return itemName;
 	}
 

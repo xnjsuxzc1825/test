@@ -13,6 +13,7 @@ public class BuyItemDAO {
 		Connection connection = dbConnector.getConnection();
 		BuyItemDTO buyItemDTO = new BuyItemDTO();
 
+		//商品情報をすべて取得する
 		String sql = "SELECT id, item_name, item_price FROM item_info_transaction";
 
 		try{
@@ -20,6 +21,7 @@ public class BuyItemDAO {
 			ResultSet resultSet = preparedStatement.executeQuery();
 
 			if(resultSet.next()){
+				//データベースから取得した情報をDTOに記憶
 				buyItemDTO.setId(resultSet.getInt("id"));
 				buyItemDTO.setItemName(resultSet.getString("item_name"));
 				buyItemDTO.setItemPrice(resultSet.getString("item_price"));

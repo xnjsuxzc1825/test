@@ -6,9 +6,10 @@ import java.sql.SQLException;
 
 public class DBConnector {
 	private static String driverName="com.mysql.jdbc.Driver";
-	private static String url = "jdbc:mysql://localhost/template";
+	private static String url = "jdbc:mysql://localhost/template1825";
 	private static String user = "root";
 	private static String password ="mysql";
+	//MySQL接続に必要な情報
 
 	public Connection getConnection(){
 		Connection con= null;

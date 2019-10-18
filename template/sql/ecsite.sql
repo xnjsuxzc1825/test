@@ -1,8 +1,8 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists template;
-create database if not exists template;
-use template;
+drop database if exists template1825;
+create database if not exists template1825;
+use template1825;
 
 drop table if exists login_user_transaction;
 

@@ -24,6 +24,7 @@ public class MyPageDAO {
 			ResultSet rs = ps.executeQuery();
 
 			if(rs.next()){
+				/*データベースから取得した商品情報をDTOに渡す。*/
 				myPageDTO.setItemName(rs.getString("item_name"));
 				myPageDTO.setTotalPrice(rs.getString("total_price"));
 				myPageDTO.setTotalCount(rs.getString("total_count"));
@@ -43,7 +44,8 @@ public class MyPageDAO {
 		}
 		return myPageDTO;
 	}
-	public int butItemHistoryDelete(String item_transaction_id, String user_master_id){
+
+	public int buyItemHistoryDelete(String item_transaction_id, String user_master_id){
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 
@@ -55,7 +57,7 @@ public class MyPageDAO {
 			ps = con.prepareStatement(sql);
 			ps.setString(1, item_transaction_id);
 			ps.setString(2, user_master_id);
-			result = ps.executeUpdate();
+			result = ps.executeUpdate();/*削除した場合、処理した行数を返す。0=処理失敗*/
 		}
 		catch(SQLException e){
 			e.printStackTrace();

@@ -13,7 +13,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 	private Map<String,Object>session;
 	private String deleteFlg;
 	private String result;
-	public String execute(){
+	public String execute()throws SQLException{
 			MyPageDAO myPageDAO = new MyPageDAO();
 			MyPageDTO myPageDTO = new MyPageDTO();
 
@@ -21,7 +21,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 			if(deleteFlg == null){
 				String item_transaction_id = session.get("id").toString();
 				String user_master_id = session.get("login_user_id").toString();
-
+				//データベースから取得した履歴情報をDTOに格納
 				myPageDTO = myPageDAO.getMyPageUserInfo(item_transaction_id, user_master_id);
 
 				session.put("buyItem_name", myPageDTO.getItemName());
@@ -31,7 +31,7 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 				session.put("message", "");
 			//商品履歴を削除する場合
 			}else if(deleteFlg.equals("1")){
-				delete();
+				delete();//deleteメソッドを実行
 			}
 			result = SUCCESS;
 			return result;
@@ -43,7 +43,9 @@ public class MyPageAction extends ActionSupport implements SessionAware {
 		String item_transaction_id = session.get("id").toString();
 		String user_master_id = session.get("login_user_id").toString();
 
-		int res = myPageDAO.butItemHistoryDelete(item_transaction_id,user_master_id);
+		/*myPageDAOクラスのbuyItemHistoryDeleteメソッドを呼び出す。引数はitem_transaction_idとuser_master_id
+		 * 実行結果をint型resに代入。実行結果は削除した処理した行数を返す為、0なら処理失敗となる。*/
+		int res = myPageDAO.buyItemHistoryDelete(item_transaction_id,user_master_id);
 
 		if (res > 0){
 			session.put("message","商品情報を正しく削除しました。");

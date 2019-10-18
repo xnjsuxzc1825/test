@@ -14,13 +14,13 @@ public class BuyItemAction extends ActionSupport implements SessionAware {
 
 	public String execute(){
 		result = SUCCESS;
-
 		session.put("stock",stock);
+		/*Mapを使いgetメソッドでBuyItemActionのstockを取得。文字列に変換後、整数値に変換しint型変数に代入*/
 		int intStock = Integer.parseInt(session.get("stock").toString());
 		int intPrice = Integer.parseInt(session.get("buyItem_price").toString());
 		session.put("buyItem_price", intStock * intPrice);
-		String payment;
 
+		String payment;
 		if(pay.equals("1")){
 			payment ="現金払い";
 			session.put("pay", payment);

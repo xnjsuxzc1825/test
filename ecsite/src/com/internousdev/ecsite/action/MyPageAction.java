@@ -21,13 +21,16 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 		if(!session.containsKey("login_user_id")){
 			return ERROR;
 		}
+		//商品履歴を削除しない場合
 		if(deleteFlg==null){
 			String item_transaction_id = session.get("id").toString();
 			String user_master_id = session.get("login_user_id").toString();
+			//データベースから取得した履歴情報を「myPageList」に格納
 			myPageList = mypageDAO.getMyPageUserInfo(item_transaction_id,user_master_id);
 		}
+		//商品履歴を削除する場合
 		else if(deleteFlg.equals("1")){
-			delete();
+			delete();//deleteメソッドを実行
 		}
 		String result = SUCCESS;
 		return result;
@@ -37,6 +40,8 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 		String item_transaction_id = session.get("id").toString();
 		String user_master_id = session.get("login_user_id").toString();
 
+		/*myPageDAOクラスのbuyItemHistoryDeleteメソッドを呼び出す。引数はitem_transaction_idとuser_master_id
+		 * 実行結果をint型resに代入。実行結果は削除した処理した行数を返す為、0なら処理失敗となる。*/
 		int res = mypageDAO.buyItemHistoryDelete(item_transaction_id,user_master_id);
 
 		if(res>0){

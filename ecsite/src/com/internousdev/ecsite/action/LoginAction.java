@@ -1,3 +1,4 @@
+/*1.setterを定義することでJSPでユーザーが入力した値がフィールドに格納される。*/
 package com.internousdev.ecsite.action;
 
 import java.util.Map;
@@ -10,7 +11,10 @@ import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.internousdev.ecsite.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
+/*struts2が持つActionSupportというクラスを継承。SessionAwareというインターフェイスの実装。*/
 public class LoginAction extends ActionSupport implements SessionAware {
+	/*フィールド変数。JSPから受け取る値loginUserId、loginPasswordを定義
+	 * 必ずJSPでの定義と同じ名前にする。*/
 	private String loginUserId;
 	private String loginPassword;
 	private Map<String,Object> session;
@@ -20,13 +24,17 @@ public class LoginAction extends ActionSupport implements SessionAware {
 
 	public String execute(){
 		String result = ERROR;
+		/*JSPから送られてきたloginUserIdとloginPasswordを引数として、LoginDAOクラスのgetLoginUserInfoメソッドを呼び出す。
+		 *その後DAOで取得した結果をLoginDTOに代入する。 */
 		loginDTO = loginDAO.getLoginUserInfo(loginUserId,loginPassword);
+		/*Mapを使い、putメソッドで要素(DAOで取得した結果)を記憶*/
 		session.put("loginUser", loginDTO);
 
+		/*入力値からユーザー情報の検索を行う。ログイン認証が成功した場合、次の画面で「商品情報」が必要なため、商品情報を取得する。*/
 		if(((LoginDTO)session.get("loginUser")).getLoginFlg()){
 			result = SUCCESS;
+			/*ログインに成功した場合、商品情報を記憶する。*/
 			BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
-
 			session.put("login_user_id", loginDTO.getLoginId());
 			session.put("id", buyItemDTO.getId());
 			session.put("buyItem_name", buyItemDTO.getItemName());

@@ -12,11 +12,12 @@ public class BuyItemCompleteDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 		DateUtil dateUtil = new DateUtil();
+
 		String sql = "INSERT INTO user_buy_item_transaction(item_transaction_id, total_price, total_count, user_master_id, pay, insert_date)VALUES(?,?,?,?,?,?)";
 
 		try{
 			PreparedStatement ps = con.prepareStatement(sql);
-			ps.setString(1,item_transaction_id);
+			ps.setString(1,item_transaction_id);/*SQL文の1つめの?に代入*/
 			ps.setString(2, total_price);
 			ps.setString(3, total_count);
 			ps.setString(4, user_master_id);
